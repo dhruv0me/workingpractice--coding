@@ -5,7 +5,7 @@
       "label": "Build and Run C++",
       "type": "process",
       "command": "cmd.exe",
-      "args": ["/d", "/c", "taskkill /F /IM outDebug.exe 2>nul & g++ -g3 -O0 hello.cpp -o .\\build\\Debug\\outDebug.exe && .\\build\\Debug\\outDebug.exe"],
+      "args": ["/d", "/c", "taskkill /F /IM outDebug.exe 2>nul & g++ -g3 -O0 ${fileBasename} -o .\\build\\Debug\\outDebug.exe && .\\build\\Debug\\outDebug.exe"],
       "group": {
         "kind": "build",
         "isDefault": true
