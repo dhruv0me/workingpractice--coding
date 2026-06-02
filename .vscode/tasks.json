@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and Run C++",
+      "type": "process",
+      "command": "cmd.exe",
+      "args": ["/d", "/c", "taskkill /F /IM outDebug.exe 2>nul & g++ -g3 -O0 hello.cpp -o .\\build\\Debug\\outDebug.exe && .\\build\\Debug\\outDebug.exe"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "focus": true
+      }
+    }
+  ]
+}
