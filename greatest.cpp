@@ -24,6 +24,5 @@ int main() {
   } else if (c > a && c > b) {
     cout << "C is the greatest of all";
   }
-
   return 0;
 }
