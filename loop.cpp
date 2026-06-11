@@ -83,14 +83,16 @@ int main() {
   }
   return 0;
 }*/
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main() {
   int n;
   cout << "enter the number: ";
   cin >> n;
-  for (int i = 1; i <= n; i) {
-    cout << "ap -" << i << ",";
+  int a =1;
+  for (int i = 1; i <= n; i++) {
+    cout << "GP - " << a << " , ";
+    a=a*2;
   }
   return 0;
-}
+} */
