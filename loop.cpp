@@ -32,3 +32,15 @@ int main() {
   }
   return 0;
 }*/
+/*#include <iostream>
+using namespace std;
+int main() {
+  // int n;
+  // cout << "enter the number 1 : ";
+  // cin >> n;//2*2=4
+  for (int i = 1; i <= 100; i++) {
+    cout << i << endl;
+  }
+  return 0;
+}
+*/
