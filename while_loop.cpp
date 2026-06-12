@@ -41,6 +41,50 @@ int main(){
     return 0;
 }
 */
+/*#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+    int i=0;
+    while(n!=0)
+    {
+        int ld = n%10;
+        n=n/10;
+         i += ld;
+    }
+     cout<<i;
+    return 0;
+}*/
+/*#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+    int i=1;
+    while(n!=0)
+    {
+        int ld = n%10;
+        n=n/10;
+         i *= ld;
+    }
+     cout<<i;
+    return 0;
+}*/
 #include <iostream>
 using namespace std;
-int main() {}
+int main() {
+  int n;
+  cout << "Enter the number: ";
+  cin >> n;
+  int i = 0;
+  while (n != 0) {
+    int ld = n % 10;
+    n = n / 10;
+    i += ld;
+  }
+  cout << i;
+  return 0;
+}
