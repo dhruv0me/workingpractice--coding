@@ -1,3 +1,4 @@
+// simple example of while loop
 /*#include <iostream >
 using namespace std;
 int main (){
@@ -10,6 +11,7 @@ int main (){
 
 }
 */
+// example of continue
 /*#include <iostream>
 using namespace std;
 int main (){
@@ -25,6 +27,7 @@ int main (){
     }
     }
 }*/
+// counting the number of digits of a number
 /*#include <iostream>
 using namespace std;
 int main(){
@@ -41,6 +44,7 @@ int main(){
     return 0;
 }
 */
+// adding digits of a number
 /*#include <iostream>
 using namespace std;
 int main(){
@@ -57,6 +61,7 @@ int main(){
      cout<<i;
     return 0;
 }*/
+// multiplying the digits of a number
 /*#include <iostream>
 using namespace std;
 int main(){
@@ -73,18 +78,21 @@ int main(){
      cout<<i;
     return 0;
 }*/
-#include <iostream>
+// adding even digits of a number
+/*#include <iostream>
 using namespace std;
 int main() {
-  int n;
+  long long n;
   cout << "Enter the number: ";
   cin >> n;
-  int i = 0;
-  while (n != 0) {
-    int ld = n % 10;
+  long long i = 0;
+  while (n>0) {
+    long long ld = n % 10;
     n = n / 10;
-    i += ld;
-  }
+    if(ld%2==0){
+        i+=ld;
+    }
+    }
   cout << i;
   return 0;
-}
+}*/
