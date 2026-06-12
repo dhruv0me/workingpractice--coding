@@ -10,3 +10,37 @@ int main (){
 
 }
 */
+/*#include <iostream>
+using namespace std;
+int main (){
+    int x=4, y=0;
+    while(x>=0){
+        x--;
+        y++;
+        if(x==y)
+        continue;
+    else
+    {
+        cout<<x<<""<<y<<endl;
+    }
+    }
+}*/
+/*#include <iostream>
+using namespace std;
+int main(){
+    long long n;
+    cout<<"Enter the number: ";
+    cin>>n;
+    long long i=0;
+    while(n>0)
+    {
+        n=n/10;
+        i++;
+    }
+     cout<<i<<endl;
+    return 0;
+}
+*/
+#include <iostream>
+using namespace std;
+int main() {}
