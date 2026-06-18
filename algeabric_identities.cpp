@@ -1,3 +1,4 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -21,16 +22,16 @@ cin>>c;
  cout<<" enter the value of b = ";
  cin>>b;
  if(c==1){
-     cout<<"ANSWER is = "<< pow( a,2) + (2 * a * b) + pow(b,2);
+     cout<<"ANSWER is for (a + b)^2 = "<< pow( a,2) + (2 * a * b) + pow(b,2);
  }
   else if (c==2){
-     cout<<"ANSWER is = "<< pow( a,2) - (2 * a * b) + pow(b,2);
+     cout<<"ANSWER is for (a - b)^2 = "<< pow( a,2) - (2 * a * b) + pow(b,2);
  }
   else if  (c==3){
-     cout<<"ANSWER is = "<< ( a + b ) * (pow( a,2) - (2 * a * b) + pow(b,2));
+     cout<<"ANSWER is for a^3 + b^3 = "<< ( a + b ) * (pow( a,2) - (2 * a * b) + pow(b,2));
  }
   else if (c==4){
-     cout<<"ANSWER is = "<<( a - b ) * (pow( a,2) + (2 * a * b) + pow(b,2));
+     cout<<"ANSWER is for a^3 - b^3 = "<<( a - b ) * (pow( a,2) + (2 * a * b) + pow(b,2));
  }
  else{
      cout<<"invalid output ";
